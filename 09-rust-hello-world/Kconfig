@@ -1,0 +1,4 @@
+config HELLO_WORLD
+    tristate "Rust Hello World Kernel Module"
+    depends on RUST
+
